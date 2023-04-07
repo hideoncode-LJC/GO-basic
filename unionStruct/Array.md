@@ -1,6 +1,6 @@
 # Array summary
 + 在GO中，数组是一种类型，即[50]int 与 [10]int 就像是 float 和 int 的区别
-+ 数组声明可以之后可以不进行赋值
++ 数组声明类型之后可以不进行赋值
 	+ int 被赋值为0
 	+ float
 	+ string被赋值为nil
@@ -36,7 +36,6 @@ var arrayMix = [...]{10 : 11, 12, 13, 14}
 ```go
 var arrayByNew = new([5]int)
 ```
-![[Pasted image 20230102213415.png]]
 ## 多维数组的声明
 + 多维数组的声明只有第一维能使用省略号
 ```go
@@ -62,7 +61,8 @@ for i := range multiArray {
 ```
 ## 数组的应用
 + function传递参数时一般不用数组类型，使用new创造的数组类型，提高效率
-## new声明数组和普通的数组类型的比较
+## new声明数组和普通的数组类型的比较 
+见Array
 ```go
 //普通类型的声明
 var a = [5]int{1, 2, 3, 4, 5}  
