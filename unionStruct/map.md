@@ -60,3 +60,8 @@ for key, value := range
 ```go
 var map1 = make(map[string]int, 10)
 ```
+
+
+
+## Map的空值问题
+见MapDemo
